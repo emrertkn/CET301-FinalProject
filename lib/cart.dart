@@ -450,9 +450,7 @@ class _DragTargetWidgetState extends State<DragTargetWidget> {
         colorBloc.setColor(Colors.green);
         return true;
       },
-      onLeave: (FoodItem foodItem) {
-        colorBloc.setColor(Colors.white);
-      },
+
       
       builder: (BuildContext context, List incoming, List rejected) {
         return Padding(
